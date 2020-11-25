@@ -78,3 +78,39 @@ a:hover {
 .right > .list-inline > li:nth-child(6) > .btns:hover {
   background-color: #46484A;
 }
+
+.right > .wrapper {
+  position: relative;
+}
+
+.box {
+  display: none;
+  padding: 15px;
+  border-radius: 20px;
+  width: 150px;
+  background-color: white;
+}
+
+.box:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 130px;
+}
+
+.box:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 185px;
+}
+
+.box:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 345px;
+  width: 160px;
+}
+
+.box > ul {
+  list-style: none;
+}
