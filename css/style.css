@@ -6,10 +6,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: red;;
 }
 
 header {
   height: 90px;
+  background-color: white;
 }
 
 a {
@@ -91,22 +93,26 @@ a:hover {
   background-color: white;
 }
 
+.active {
+  display: inline-block;
+}
+
 .box:nth-child(1) {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 130px;
 }
 
 .box:nth-child(2) {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 230px;
   width: 185px;
 }
 
 .box:nth-child(3) {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 345px;
   width: 160px;
 }
