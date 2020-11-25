@@ -20,5 +20,12 @@ $(document).ready(
         $(".box:nth-child(3)").addClass("active");
       }
     );
+
+    $(document).click(
+      function(){
+        $(".box.active").removeClass("active");
+      }
+    );
+
   }
 );
