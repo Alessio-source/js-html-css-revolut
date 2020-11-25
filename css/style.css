@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 90px;
+}
+
+a {
+  text-decoration: none;
+  color: #A4ACB3;
+}
+
+a:hover {
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  line-height: 90px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.list-inline > li img {
+  vertical-align: middle;
+}
+
+.right > .list-inline > li:nth-child(5),
+.right > .list-inline > li:nth-child(6) {
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+.btns {
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+
+.right > .list-inline > li:nth-child(5) > .btns {
+  color: black;
+  background-color: #EFEFEF;
+}
+
+.right > .list-inline > li:nth-child(5) > .btns:hover {
+  background-color: lightgrey;
+}
+
+.right > .list-inline > li:nth-child(6) > .btns {
+  background-color: black;
+  color: white;
+}
+
+.right > .list-inline > li:nth-child(6) > .btns:hover {
+  background-color: #46484A;
+}
